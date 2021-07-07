@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Test"
+      - env
+  post_build:
+    commands:
+      - echo Finished
